@@ -26,6 +26,12 @@
 				<configuration>
 					<source>${javac.version}</source>
 					<target>${javac.version}</target>
+					<systemPropertyVariables>
+						<property>
+							<name>grid.server.url</name>
+							<value>${grid.server.url}</value>
+						</property>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
